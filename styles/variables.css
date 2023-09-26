@@ -8,8 +8,11 @@
     --themes-background: #FFF;
     --themes-main-color: #000;
     --background:
-    repeating-linear-gradient(0deg, #d3d3d3, transparent 2px),
-    repeating-linear-gradient(90deg, #e7e7e7, #1a1a1a  2px);
+    /* repeating-linear-gradient(0deg, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(90deg, #e7e7e7, #1a1a1a  2px); */
+    repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(#d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(to bottom, #e7e7e7, #1a1a1a);
     --heart__contour-color: black;
     --heart__color: red;
     --button__color-hover: #FFF;
