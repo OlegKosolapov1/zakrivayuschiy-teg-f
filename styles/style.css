@@ -24,6 +24,7 @@
   background-image: var(--background);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -257,6 +258,11 @@
 
 /* Лайк */
 
+.like-icon {
+  width: 39px;
+  height: 36px;
+}
+
 .card__like-button {
   position: relative;
   display: inline-block;
@@ -371,15 +377,15 @@
   width: clamp(21.313rem, 20.96rem + 1.502vw, 22.313rem);
   height: clamp(12.063rem, 12.018rem + 0.188vw, 12.188rem);
   justify-content: center;
-  padding: 2px;
+  padding: 30px;
 }
 
 .save__title-dialog-block {
   display: flex;
-  margin-top: 32px;
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 .save__dialog-floppy {
@@ -402,6 +408,16 @@
   width: clamp(16.063rem, 15.27rem + 3.38vw, 18.313rem);
   height: 38px;
   margin: 0 auto;
+}
+
+#floppy1 {
+  width: 29px;
+  height: 29px;
+}
+
+#floppy2 {
+  width: 39px;
+  height: 39px;
 }
 
 .button__dialog {
